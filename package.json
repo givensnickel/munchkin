@@ -1,0 +1,27 @@
+{
+  "name": "munchkin",
+  "version": "1.0.0",
+  "description": "munchkin in web browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/givensnickel/munchkin.git"
+  },
+  "keywords": [
+    "munchkin"
+  ],
+  "author": "Topher Nickel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/givensnickel/munchkin/issues"
+  },
+  "homepage": "https://github.com/givensnickel/munchkin#readme",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  }
+}
