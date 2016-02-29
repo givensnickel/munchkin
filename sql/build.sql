@@ -1,4 +1,4 @@
-begin ;
+begin;
 create table users (
     user_id int(10) not null auto_increment,
     user_name varchar(255) not null,
@@ -6,3 +6,4 @@ create table users (
     password varchar(255) not null,
     primary key (user_id)
 );
+commit;
